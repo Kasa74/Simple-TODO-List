@@ -77,14 +77,14 @@ function App() {
           >
             <div className="grow">{task.text}</div>
             <div
-              className="mr-2 text-green-500"
+              className="mr-2 text-green-500 cursor-pointer"
               onClick={() => confirmTask(task.id)}
             >
               ✓
             </div>
             <div
               key={task.id}
-              className="grow-0 text-red-600"
+              className="grow-0 text-red-600 cursor-pointer"
               onClick={() => removeTask(task.id)}
             >
               X
