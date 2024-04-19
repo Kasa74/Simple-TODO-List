@@ -37,9 +37,6 @@ function App() {
         modified[i].completed = !modified[i].completed;
       }
     }
-    // modified.forEach((task) =>
-    //   task.id === id ? (task.confirmed = true) : task.confirmed
-    // );
     setTasks(modified);
   };
   return (
